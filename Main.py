@@ -3,12 +3,12 @@ from itertools import combinations_with_replacement
 
 def calculer_notes_possibles(n,a,b):
     if 1<=n<=5*10**4 and 1<=a<=20 and -20<=b<=-1:
-        notes_possible = set()
+        notes_possibles = set()
         for combination in combinations_with_replacement([0,a,b], n):
-            notes_possible.add(sum(combination))
-        print(len(notes_possible)," =>", sorted(notes_possible))
+            notes_possibles.add(sum(combination))
+        print(len(notes_possibles)," =>", sorted(notes_possibles))
     else:
-        print("** Erreur : la valeur de N, a et b doivent être : 1⩽N⩽5x10⁴ et 1⩽a,b⩽20 **")
+        print("** Erreur : les valeurs de N, a et b doivent être : 1⩽N⩽5x10⁴ et 1⩽a,b⩽20 **")
 
 def main(nom_fichier="Fichier d'entrée.txt"):
     with open(file=nom_fichier, mode="r") as fichier :
@@ -30,7 +30,7 @@ def main(nom_fichier="Fichier d'entrée.txt"):
                 n, a, b = int(n), int(a), int(b)*-1
                 calculer_notes_possibles(n,a,b)
             except ValueError:
-                print("** Erreur : Vous douvez entrer trois valeurs entieres **")
+                print("** Erreur : Vous douvez entrer trois valeurs entières **")
   
 if __name__ == '__main__':
     main()
