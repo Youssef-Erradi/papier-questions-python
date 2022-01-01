@@ -1,4 +1,4 @@
-#Problème de papier de questions
+# Problème de papier de questions
 Une feuille de questions contient 𝑁 questions. Les points attribués à chaque bonne réponse
 sont 𝑎. Pour chaque mauvaise réponse, vous perdrez 𝑏 des marques. Trouvez le nombre de
 notes différentes qui peuvent être obtenues à l'examen.
