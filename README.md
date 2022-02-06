@@ -27,5 +27,5 @@ et 𝑏
 5 <br>
 <br>
 • Explication <br>
-Pour le cas de test 1, vous obtiendrez 0 pour n'avoir tenté aucune question, 4 pour la bonne réponse et -3 pour la mauvaise réponse.
+Pour le cas de test 1, vous obtiendrez 0 pour n'avoir tenté aucune question, 4 pour la bonne réponse et -3 pour la mauvaise réponse.<br>
 Pour le cas de test 2, vous obtiendrez -2, -1, 0, 1, 2.
